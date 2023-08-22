@@ -12,7 +12,7 @@ string[] arrElLengThree(string[] arr){
     string strTemp = string.Empty;
     foreach (string a in arr){
         if (a.Length < 4){
-            strTemp = strTemp+a+"(/ /)";
+            strTemp = strTemp + a + "(/ /)";
         }
     }
     string[] arrTemp = strTemp.Split("(/ /)");
